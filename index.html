@@ -58,7 +58,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#data-challenge-mines-2024" class="md-skip">
+        <a href="#mines-2024-data-challenge" class="md-skip">
           Skip to content
         </a>
       
@@ -94,7 +94,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Data Challenge Mines 2024
+              Mines 2024 Data Challenge
             
           </span>
         </div>
@@ -200,7 +200,7 @@
           
   
   <span class="md-ellipsis">
-    Data Challenge Mines 2024
+    Mines 2024 Data Challenge
   </span>
   
 
@@ -211,7 +211,7 @@
         
   
   <span class="md-ellipsis">
-    Data Challenge Mines 2024
+    Mines 2024 Data Challenge
   </span>
   
 
@@ -233,27 +233,51 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#install" class="md-nav__link">
+  <a href="#setup-instructions" class="md-nav__link">
     <span class="md-ellipsis">
-      Install
+      Setup Instructions
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Setup Instructions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-create-a-virtual-environment" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Create a Virtual Environment
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-install-dependencies" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Install Dependencies
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dataset" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dataset
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#download-dataset" class="md-nav__link">
+  <a href="#running-the-demo" class="md-nav__link">
     <span class="md-ellipsis">
-      Download dataset
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#run-demo" class="md-nav__link">
-    <span class="md-ellipsis">
-      Run demo
+      Running the Demo
     </span>
   </a>
   
@@ -294,27 +318,51 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#install" class="md-nav__link">
+  <a href="#setup-instructions" class="md-nav__link">
     <span class="md-ellipsis">
-      Install
+      Setup Instructions
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Setup Instructions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-create-a-virtual-environment" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Create a Virtual Environment
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-install-dependencies" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Install Dependencies
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dataset" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dataset
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#download-dataset" class="md-nav__link">
+  <a href="#running-the-demo" class="md-nav__link">
     <span class="md-ellipsis">
-      Download dataset
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#run-demo" class="md-nav__link">
-    <span class="md-ellipsis">
-      Run demo
+      Running the Demo
     </span>
   </a>
   
@@ -335,24 +383,29 @@
                   
 
 
-<h1 id="data-challenge-mines-2024">Data Challenge Mines 2024</h1>
-<h2 id="install">Install</h2>
-<p>Create a virtual environment with python 3.12:</p>
-<pre><code>conda create -n env_challenge python=3.12
+<h1 id="mines-2024-data-challenge">Mines 2024 Data Challenge</h1>
+<p>Welcome to the Mines x Invent 2024 Data Challenge! This repository is designed to help Mines Paris M2 students get started quickly with the challenge.</p>
+<h2 id="setup-instructions">Setup Instructions</h2>
+<h3 id="1-create-a-virtual-environment">1. Create a Virtual Environment</h3>
+<p>First, you'll need to create a Python virtual environment. Make sure you're using Python 3.12:</p>
+<pre><code class="language-bash">conda create -n env_challenge python=3.12
 conda activate env_challenge
 </code></pre>
-<p>Install the project</p>
-<pre><code>pip install poetry
+<h3 id="2-install-dependencies">2. Install Dependencies</h3>
+<p>Next, install the required dependencies for the project:</p>
+<pre><code class="language-bash">pip install poetry
 poetry install --with dev
 </code></pre>
-<h2 id="download-dataset">Download dataset</h2>
-<p>The dataset is very large. For the first experiments, we recommend using the mini dataset.</p>
+<h2 id="dataset">Dataset</h2>
+<p>The dataset for this challenge is quite large, but for initial experiments, we recommend starting with the mini dataset.</p>
 <ul>
-<li><strong>mini dataset</strong>: see in the <a href="https://www.kaggle.com/competitions/data-challenge-invent-mines2024/data">Data section</a> in Kaggle</li>
-<li><strong>whole dataset</strong>: TO BE COMPLETED on Kaggle</li>
+<li><strong>Mini Dataset</strong>: Available on Kaggle in the <a href="https://www.kaggle.com/competitions/data-challenge-invent-mines2024/data">Data section</a>.</li>
+<li><strong>Full Dataset</strong>: Coming soon on Kaggle.</li>
 </ul>
-<h2 id="run-demo">Run demo</h2>
-<p>We provide a welcoming notebook to visualize and load the data: <code>demo.ipynb</code>.</p>
+<h2 id="running-the-demo">Running the Demo</h2>
+<p>To get a quick start, check out the <code>demo.ipynb</code> notebook. It will guide you through loading and visualizing the dataset, helping you familiarize yourself with the data.</p>
+<hr />
+<p>Feel free to explore and experiment!</p>
 
 
 
