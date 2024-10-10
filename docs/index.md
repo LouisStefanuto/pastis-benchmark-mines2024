@@ -28,6 +28,8 @@ For more information about Poetry, check out their [**documentation**](https://p
 
 ## 📊 Dataset
 
+The challenge is based on the PASTIS dataset from Vivien Sainte Fare Garnot and Loic Landrieu.
+
 The dataset for this challenge is quite large, but for initial experiments, we recommend starting with the mini dataset.
 
 - **Mini Dataset**: Available on Kaggle in the [Data section](https://www.kaggle.com/competitions/data-challenge-invent-mines2024/data).
