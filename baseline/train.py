@@ -1,3 +1,4 @@
+from pathlib import Path
 import matplotlib.pyplot as plt
 import torch
 import torch.nn as nn
@@ -12,11 +13,10 @@ from baseline.unet import UNet
 
 
 def main(
-    data_folder: str,
+    data_folder: Path,
     mini_dataset: bool = False,
     num_channels: int = 10,
     num_classes: int = 20,
-    init_features: int = 32,
     batch_size: int = 32,
     lr: float = 1e-3,
     num_epochs: int = 10,
@@ -108,7 +108,7 @@ def plot_metrics(epoch_losses, epoch_ious, num_epochs):
 if __name__ == "__main__":
     # Fill these file paths with the locations on your machine.
     training_args = {
-        "data_folder": "./PASTIS-mini/TRAIN",
+        "data_folder": "./PASTIS-mini/",
         "mini_dataset": False,
         "num_channels": 10,
         "num_classes": 20,
