@@ -26,10 +26,10 @@ class BaselineDataset(torch.utils.data.Dataset):
         self.id_patches = self.meta_patch.index
         print("Dataset ready.")
 
-    def __len__(self):
+    def __len__(self) -> int:
         return self.len
 
-    def __getitem__(self, item: int):
+    def __getitem__(self, item: int) -> tuple[dict[str, torch.Tensor], torch.Tensor]:
         id_patch = self.id_patches[item]
 
         # Open and prepare satellite data into T x C x H x W arrays
