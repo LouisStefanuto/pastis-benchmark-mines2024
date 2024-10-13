@@ -2,13 +2,15 @@
 
 Welcome to the **Mines x Invent 2024 Data Challenge**! This repository is designed to help Mines Paris students get started quickly with the challenge.
 
+Link to the competition: [Mines 2024 Data Challenge](https://www.kaggle.com/competitions/data-challenge-invent-mines-2024/overview) (works only if you already entered the competition)
+
 ## 🏗️ Setup Instructions
 
 ### 1. Create a Virtual Environment
 
 First, you'll need to create a Python virtual environment. Make sure you're using Python 3.12:
 
-```bash
+```console
 conda create -n env_challenge python=3.12
 conda activate env_challenge
 ```
@@ -19,7 +21,7 @@ conda activate env_challenge
 
 Next, install the required dependencies for the project:
 
-```bash
+```console
 pip install poetry
 poetry install --with dev
 ```
@@ -32,12 +34,22 @@ The challenge is based on the PASTIS dataset from Vivien Sainte Fare Garnot and 
 
 The dataset for this challenge is quite large, but for initial experiments, we recommend starting with the mini dataset.
 
-- **Mini Dataset**: Available on Kaggle in the [Data section](https://www.kaggle.com/competitions/data-challenge-invent-mines2024/data).
-- **Full Dataset**: Coming soon on Kaggle.
+The data is available on Kaggle in the [Data section](https://www.kaggle.com/competitions/data-challenge-invent-mines-2024/data). It contains:
+
+- a **mini Dataset**: 10 samples, to test the starter kit
+- and the **full Dataset**: much larger (40Gb), download it at home.
 
 ## 🧪 Running the Demo
 
 To get a quick start, check out the `demo.ipynb` notebook. It will guide you through loading and visualizing the dataset, helping you familiarize yourself with the data.
+
+## Training example
+
+We also provide a minimal training pipeline. Note it contains the bare minimal material.
+
+```console
+python baseline.train.py
+```
 
 ## 📚 Documentation
 
