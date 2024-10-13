@@ -32,8 +32,10 @@ The challenge is based on the PASTIS dataset from Vivien Sainte Fare Garnot and 
 
 The dataset for this challenge is quite large, but for initial experiments, we recommend starting with the mini dataset.
 
-- **Mini Dataset**: Available on Kaggle in the [Data section](https://www.kaggle.com/competitions/data-challenge-invent-mines2024/data).
-- **Full Dataset**: Coming soon on Kaggle.
+The data is available on Kaggle in the [Data section](https://www.kaggle.com/competitions/data-challenge-invent-mines-2024/data). It contains:
+
+- a **mini Dataset**: 10 samples, to test the starter kit
+- and the **full Dataset**: much larger (40Gb), download it at home.
 
 ## 🧪 Running the Demo
 
